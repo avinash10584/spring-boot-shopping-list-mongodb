@@ -1,0 +1,16 @@
+spring: 
+  application:
+    name: shopping-list-service
+  profiles:
+    active: "@spring.boot.profile@"      
+  data: 
+      mongodb: 
+          database: shopping-list
+          host: localhost
+          port: 27017
+            
+server: 
+  port: 3024
+  
+    
+  
