@@ -5,7 +5,7 @@ spring:
     active: "@spring.boot.profile@"      
   data: 
       mongodb: 
-          uri: mongodb+srv://express-react-shopping-list:express-react-shopping-list@cluster0-lp99b.mongodb.net/express-react-shopping-list?retryWrites=true
+          uri: mongodb+srv://${mongo.username}:${mongo.password}@cluster0-lp99b.mongodb.net/express-react-shopping-list?retryWrites=true
             
 server: 
   port: 3024
